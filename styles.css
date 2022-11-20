@@ -1,5 +1,5 @@
 :root {
-    --standart_border-radius: 40px;
+    --standart_border-radius: 4px;
     --standart_linear-graidient-background-color: #ff8177;
     --standart_linear-graidient: linear-gradient(to right, #f12711, #f5af19);
     --standart_webkit-linear-gradient: linear-gradient(to right, #f12711, #f5af19);
