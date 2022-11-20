@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EK & VK Kalkulation</title>
+        <link rel="stylesheet" href="styles_EKVKKalk.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="section-wrapper">
+                <div class="subsection-wrapper">
+                    <p class="ListEK">
+                        Listen EK in €:
+                        <input
+                            type="number"
+                            class="inputNumber"
+                            id="input_ListEK"
+                        />
+                        incl. 19% MwSt.:
+                        <input type="checkbox" id="input_inclMwSt">
+                    </p>
+                    <p class="ListenRabatt">
+                        Listen Rabatt in %:
+                        <input
+                            type="number"
+                            class="inputNumber"
+                            id="input_ListRabattInPercent"
+                        />
+                        Listen Rabatt in €:
+                        <input
+                            type="number"
+                            class="inputNumber"
+                            id="input_ListRabattInEuro"
+                        />
+                    </p>
+                    <p class="SonderRabatt">
+                        Sonderrabatt 1 in %:
+                        <input
+                            type="number"
+                            class="inputNumber"
+                            id="input_SonderrabattInPercent1"
+                        />
+                        Sonderrabatt 1 in €:
+                        <input
+                            type="number"
+                            class="inputNumber"
+                            id="input_SonderrabattInEuro1"
+                        />
+                    </p>
+                    <p class="SonderRabatt ">
+                        Sonderrabatt 2 in %:
+                        <input
+                            type="number"
+                            class="inputNumber"
+                            id="input_SonderrabattInPercent2"
+                        />
+                        Sonderrabatt 2 in €:
+                        <input
+                            type="number"
+                            class="inputNumber"
+                            id="input_SonderrabattInEuro2"
+                        />
+                    </p>
+                    <p class="ListEK">
+                        Netto Einstandspreis in €:
+                        <input
+                            type="number"
+                            class="inputNumber"
+                            id="input_NettoEinstandspreis"
+                        />
+                    </p>
+                </div>
+                <button id="btn_startKalculation" onclick="StartKalculation()">
+                    Start Calculation
+                </button>
+            </div>
+        </div>
+        <script src="app_EKVKKalkulation.js"></script>
+    </body>
+</html>

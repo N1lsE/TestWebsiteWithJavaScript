@@ -54,3 +54,7 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener("click", hideMobileMenu);
 navLogo.addEventListener("click", hideMobileMenu);
+
+const changePage_EKVKKalkulator = () => {
+  document.location.href = "EK-VK-Kalkulation.html";
+}

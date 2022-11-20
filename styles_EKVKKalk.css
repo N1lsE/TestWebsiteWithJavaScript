@@ -1,0 +1,81 @@
+:root {
+    --standart_border-radius: 4px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    padding: 1rem;
+    background-color: #131313;
+    ackground: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2f3233, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2f3233, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.section-wrapper {
+    margin: 0.5rem;
+}
+
+.subsection-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0.5rem;
+}
+
+.subsection-wrapper p {
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0.1rem;
+    padding: 1rem;
+    background: #141414;
+    border-radius: var(--standart_border-radius);
+    width: 100%;
+    max-width: 800px;
+}
+
+button {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: right;
+    align-items: right;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    background: #414d0b;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: var(--standart_border-radius);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: right;
+    align-items: right;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    background: #39440a;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: var(--standart_border-radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:active {
+    background: #596818;
+}

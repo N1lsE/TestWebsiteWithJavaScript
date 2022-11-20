@@ -83,7 +83,7 @@
 
 .button {
     display: flex;
-    justify-content: cen;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
     padding: 10px 20px;
@@ -493,7 +493,7 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to left, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to bottom, #202e47, #243b55);
     transition: 0.3s ease-in;
 }
 
